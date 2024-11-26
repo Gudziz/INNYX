@@ -1,6 +1,5 @@
-// script.js
-const email = "user@example.com"; // Simula um email fornecido
-const password = "12345"; // Simula uma senha fornecida
+const email = "user@example.com"; // Para simular um email fornecido
+const password = "12345"; // Para simular uma senha fornecida
 
 function showAlert(message) {
   alert(message);
