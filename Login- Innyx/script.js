@@ -10,3 +10,14 @@ if (email && password) {
 } else {
   showAlert('Please fill in all fields.');
 }
+
+const togglePasswordButton = document.querySelector('.toggle-password');
+const passwordInput = document.querySelector('#password');
+
+togglePasswordButton.addEventListener('click', () => {
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text';
+  } else {
+    passwordInput.type = 'password';
+  }
+});

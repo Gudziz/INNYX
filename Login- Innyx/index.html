@@ -9,27 +9,39 @@
 
 <body>
   <div class="container">
+    <!-- Seção da Esquerda (Imagem) -->
     <div class="form-image">
-      <img src="assets/img/{3B0592DF-2C47-4887-AA30-09F5ED478CAC}.png" alt="imagem">
+      <img src="assets/img/{3B0592DF-2C47-4887-AA30-09F5ED478CAC}.png" alt="Illustration">
     </div>
+
+    <!-- Seção da Direita (Form) -->
     <div class="form">
       <form action="#">
         <div class="form-header">
-          <div class="title">
-            <h1>Welcome!</h1>
-          </div>
+          <h1>Welcome!</h1>
         </div>
+
         <div class="input-group">
+          <!-- Input de email -->
           <div class="input-box">
-            <label for="Email">Email address</label>
+            <label for="Email">Email address*</label>
             <input id="Email" type="email" name="Email" required>
           </div>
+
+          <!-- Input de senha com botão de revelar -->
           <div class="input-box">
             <label for="password">Password</label>
-            <input id="password" type="password" name="password" required>
+            <div class="password-container">
+              <input id="password" type="password" name="password" required>
+              <button type="button" class="toggle-password">
+                <img src="assets/img/Vector.png" alt="Show Password Icon">
+              </button>
+            </div>
           </div>
+
+          <!-- Botão "Entrar" -->
           <div class="login-button">
-            <button><a href="#">ENTRAR</a></button>
+            <button type="submit">ENTRAR</button>
           </div>
         </div>
       </form>
@@ -37,5 +49,4 @@
   </div>
   <script src="script.js"></script>
 </body>
-
 </html>
