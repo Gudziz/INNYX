@@ -87,13 +87,13 @@ body {
 }
 
 .password-container {
-  position: relative; /* Needed for absolute positioning of the button */
-  width: 100%; /* Full width of the input container */
+  position: relative;
+  width: 100%;
 }
 
 .password-container input {
-  width: 100%; /* Full width */
-  padding-right: 50px; /* Space for the button inside */
+  width: 100%;
+  padding-right: 50px;
   height: 50px;
   padding: 0 1rem;
   border: 1px solid #ddd;
