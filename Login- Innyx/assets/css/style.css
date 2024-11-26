@@ -7,7 +7,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -18,15 +18,16 @@ body {
 
 .container {
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 0; /* Optional: Set to 0 to avoid rounded corners */
   overflow: hidden;
 }
 
+
 .form-image {
-  flex: 1;
+  flex: 2.99;
   background-color: #7D4796;
   display: flex;
   align-items: center;
@@ -40,7 +41,7 @@ body {
 
 .form {
   flex: 1;
-  padding: 3rem;
+  padding: 9rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
